@@ -18,5 +18,6 @@ function mouseOut(){
 function findReplace(){
 	var find = document.getElementById("find").value;
 	var replace = document.getElementById("replace").value;
+	//var regex = new RegExp(/ + find + /, i);
 	document.getElementById("toreplace").innerHTML = document.getElementById("toreplace").innerHTML.replace(/river/i, replace);
 }

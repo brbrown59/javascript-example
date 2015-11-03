@@ -18,7 +18,7 @@
 			The Operative: Secrets are not my concern. Keeping them is.
 		</p>
 		<label for="find">Text to find:</label>
-		<input type="text" id="find" value="Old"/>
+		<input type="text" id="find" value="This"/>
 		<label for="replace">Replace with:</label>
 		<input type="text" id="replace" value="New"/><br/><br/>
 		<input type="button" id="startfind" value="Find/Replace" onclick="findReplace();"/>
