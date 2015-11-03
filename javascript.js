@@ -16,10 +16,7 @@ function mouseOut(){
  * function using regular expressions to find a given string and replace it with another given string
  **/
 function findReplace(){
-	//var find = document.getElementById("find").value;
-	//var replace = document.getElementById("replace").value;
-	//var findExpression = new RegExp("[Tam]");
-	//var repText= findExpression.replace(replace);//use replace to find the text and replace
-	//document.getElementById("parareplace").value = repText;
-	document.getElementById("color").style.color = "red";
+	var find = document.getElementById("find").value;
+	var replace = document.getElementById("replace").value;
+	document.getElementById("toreplace").innerHTML = document.getElementById("toreplace").innerHTML.replace(/river/i, replace);
 }

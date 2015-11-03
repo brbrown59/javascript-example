@@ -11,7 +11,7 @@
 		</p>
 		<p>Hover over to change text color</p>
 		<h2>Paragraph 2</h2>
-		<p id="parareplace">[seeing a whole fleet of Reaver ships coming at him]  The Operative: Target the Reavers. Target the Reavers! Target everyone! Somebody fire!
+		<p id="toreplace">[seeing a whole fleet of Reaver ships coming at him]  The Operative: Target the Reavers. Target the Reavers! Target everyone! Somebody fire!
 			Fanty: Do you know that girl?  Capt. Malcolm Reynolds: I really don't.
 			Dr. Simon Tam: But I think when they triggered you, it somehow brought this up. This memory.  River Tam: It isn't mine. The memory, it isn't mine. And I shouldn't have to carry it. It isn't mine. Don't make me sleep again.  Dr. Simon Tam: I won't. I won't.  River Tam: Put a bullet to me. Bullet in the brain pan. Squish.  Dr. Simon Tam: Don't say that! Not ever. We'll get through this.  River Tam: Things are going to get much, much worse.
 			The Operative: Where are you hiding, little girl?
