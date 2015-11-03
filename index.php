@@ -7,7 +7,7 @@
 	<body>
 		<h1>Fun with Javascript!!!</h1>
 		<h2>Paragraph 1</h2>
-		<p>Capt. Malcolm Reynolds: [about protective goggles] Fine, I'll wear 'em. But I'll look like an idiot. Zo : I should think you'd be used to that, sir. Jayne Cobb: Shepherd Book once said to me, "If you can't do something smart, do something right." Capt. Malcolm Reynolds: We're going to need paint. We're going to need red paint. Jayne Cobb: [as Mal's talking to the Vault Guard] MAL! Capt. Malcolm Reynolds: Every heist he's gotta start yellin' my name! Dr. Simon Tam: [deciding to leave the ship] River, do you want to stay with them? River Tam: It isn't safe. Dr. Simon Tam: No. I fear it isn't safe any more. [walks away] River Tam: [quietly] For them.
+		<p id="color" onclick="clickColor();">Capt. Malcolm Reynolds: [about protective goggles] Fine, I'll wear 'em. But I'll look like an idiot. Zo : I should think you'd be used to that, sir. Jayne Cobb: Shepherd Book once said to me, "If you can't do something smart, do something right." Capt. Malcolm Reynolds: We're going to need paint. We're going to need red paint. Jayne Cobb: [as Mal's talking to the Vault Guard] MAL! Capt. Malcolm Reynolds: Every heist he's gotta start yellin' my name! Dr. Simon Tam: [deciding to leave the ship] River, do you want to stay with them? River Tam: It isn't safe. Dr. Simon Tam: No. I fear it isn't safe any more. [walks away] River Tam: [quietly] For them.
 		</p>
 		<h2>Paragraph 2</h2>
 		<p>[seeing a whole fleet of Reaver ships coming at him]  The Operative: Target the Reavers. Target the Reavers! Target everyone! Somebody fire!
