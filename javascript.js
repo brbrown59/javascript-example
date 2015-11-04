@@ -1,3 +1,5 @@
+
+
 /**
  * changes the color of a selected paragraph when hovered over
  **/
@@ -6,7 +8,7 @@ function mouseOver(){
 }
 
 /**
- * changes the color of a selected paragraph back when mose removed
+ * changes the color of a selected paragraph back when mouse removed
  **/
 function mouseOut(){
 	document.getElementById("color").style.color = "black";
@@ -22,3 +24,9 @@ function findReplace(){
 	document.getElementById("toreplace").innerHTML = document.getElementById("toreplace").innerHTML.replace(regex, replace);
 }
 
+/**
+ * changes the font based on a button press
+ */
+function changeFont(){
+	document.getElementById("font").style.fontFamily="Times", serif;
+}

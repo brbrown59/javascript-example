@@ -23,11 +23,13 @@
 		<input type="text" id="replace" value="New"/><br/><br/>
 		<input type="button" id="startfind" value="Find/Replace" onclick="findReplace();"/>
 		<h2>Paragraph 3</h2>
-		<p draggable="true" ondragstart="event.dataTransfer.setData('text/plain, 'this text may be dragged)">[after the hovercraft makes a crash landing in the hanger of Serenity. Simon runs to his sister]  Dr. Simon Tam: River?  River Tam: I swallowed a bug.
+
+		<p id="font">[after the hovercraft makes a crash landing in the hanger of Serenity. Simon runs to his sister]  Dr. Simon Tam: River?  River Tam: I swallowed a bug.
 			Capt. Malcolm Reynolds: So I'm noticing. Is there a problem we don't know of?  [pause]  Capt. Malcolm Reynolds: You got a sweet take kissing your foot. How about you take your 25% and we can talk about the next job?  Fanty: Well our end is forty, precious.  Jayne Cobb: My muscular buttocks it's forty.
 			Capt. Malcolm Reynolds: It should have been me that got hit.  Shepherd Book: The thought... had crossed my mind.
 			Zo : Do you really think any of us is gonna get through this?  [looks at the other crew members struggling with their guns]  Jayne Cobb: Well, I might.
 			The Operative: Where are you hiding, little girl?
 		</p>
+		<input type="button" id="changefont" value="Change Font?" onclick="changeFont();"/>
 	</body>
 </html>
