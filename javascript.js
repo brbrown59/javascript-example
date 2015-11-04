@@ -35,7 +35,7 @@ function changeFont(){
  * reverses all of the words in the paragraph
  **/
 function reverseText(){
-	//split string into words
+	//split string into words (should also work for letters, without the space
 	var splitText = document.getElementById("toreverse").innerHTML.split(" ");
 	var newText = "";
 	splitText.reverse();
@@ -44,4 +44,14 @@ function reverseText(){
 		newText = newText + splitText[i] +  " ";
 	}
 	document.getElementById("toreverse").innerHTML = newText;
+}
+
+function anagramText(){
+	var splitText = document.getElementById("toanagram").innerHTML.split(" ");
+	var newText = "";
+	for (i=0;i<splitText.length;i++){
+		var splitWords = splitText[i].split("");
+		newText = newText + splitWords.reverse() + " ";
+	}
+	document.getElementById("toanagram").innerHTML = newText;
 }

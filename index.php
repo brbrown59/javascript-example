@@ -42,5 +42,14 @@
 			Capt. Malcolm Reynolds: What in the hell happened back there?  Hoban 'Wash' Washburn: Start with the part where Jayne gets knocked out by a 90-pound girl 'cause... I don't think that's ever getting old.
 		</p>
 		<input type="button" id="startreverse" value="Reverse!" onclick="reverseText();"/>
+
+		<h2>Paragraph 5</h2>
+		<p id="toanagram"> Capt. Malcolm Reynolds: They take you down, I don't expect to grieve overmuch. Like to kill you myself, I see you again.  The Operative: You won't...  [small, grim smile]  The Operative: There is nothing left to see.
+			[Deleted scene]  The Operative: Serenity... you lost everything in that battle. Everything you had, everything you were. How did you go on?  Capt. Malcolm Reynolds: If you're still standing there when that engine starts, you never will figure it out.
+			Capt. Malcolm Reynolds: Just get us on the ground!  Hoban 'Wash' Washburn: That part'll happen pretty definitely.
+			The Operative: Do you know what your sin is Mal?  Capt. Malcolm Reynolds: Ah Hell... I'm a fan of all seven. But right now... I'm gonna have to go with wrath.
+			River Tam: [seeing visions of dead bodies on Miranda] Run-tse duh shang-dee, ching dai-wuhtzo... make them stop! They're everywhere. Every city, every... every house, every room; they're all inside me! I can hear them all and they're saying... NOTHING! GET UP! Please, get up! Wuo-shang mayer, maysheen byen shr-to. Please God, make me a stone.
+		</p>
+		<input type="button" id="startanagram" value="Anagram!" onclick="anagramText();"/>
 	</body>
 </html>
