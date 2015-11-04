@@ -51,7 +51,11 @@ function anagramText(){
 	var newText = "";
 	for (i=0;i<splitText.length;i++){
 		var splitWords = splitText[i].split("");
-		newText = newText + splitWords.reverse() + " ";
+		splitWords.reverse();
+		for(j=0;j<splitWords.length;j++){
+			newText = newText + splitWords[j] ;
+		}
+		newText = newText + " ";
 	}
 	document.getElementById("toanagram").innerHTML = newText;
 }
