@@ -6,10 +6,12 @@
 	</head>
 	<body>
 		<h1>Fun with Javascript!!!</h1>
+
 		<h2>Paragraph 1</h2>
 		<p id="color" onmouseover="mouseOver();" onmouseout="mouseOut();">Capt. Malcolm Reynolds: [about protective goggles] Fine, I'll wear 'em. But I'll look like an idiot. Zo : I should think you'd be used to that, sir. Jayne Cobb: Shepherd Book once said to me, "If you can't do something smart, do something right." Capt. Malcolm Reynolds: We're going to need paint. We're going to need red paint. Jayne Cobb: [as Mal's talking to the Vault Guard] MAL! Capt. Malcolm Reynolds: Every heist he's gotta start yellin' my name! Dr. Simon Tam: [deciding to leave the ship] River, do you want to stay with them? River Tam: It isn't safe. Dr. Simon Tam: No. I fear it isn't safe any more. [walks away] River Tam: [quietly] For them.
 		</p>
 		<p>Hover over to change text color</p>
+
 		<h2>Paragraph 2</h2>
 		<p id="toreplace">[seeing a whole fleet of Reaver ships coming at him]  The Operative: Target the Reavers. Target the Reavers! Target everyone! Somebody fire!
 			Fanty: Do you know that girl?  Capt. Malcolm Reynolds: I really don't.
@@ -22,8 +24,8 @@
 		<label for="replace">Replace with:</label>
 		<input type="text" id="replace" value="New"/><br/><br/>
 		<input type="button" id="startfind" value="Find/Replace" onclick="findReplace();"/>
-		<h2>Paragraph 3</h2>
 
+		<h2>Paragraph 3</h2>
 		<p id="font">[after the hovercraft makes a crash landing in the hanger of Serenity. Simon runs to his sister]  Dr. Simon Tam: River?  River Tam: I swallowed a bug.
 			Capt. Malcolm Reynolds: So I'm noticing. Is there a problem we don't know of?  [pause]  Capt. Malcolm Reynolds: You got a sweet take kissing your foot. How about you take your 25% and we can talk about the next job?  Fanty: Well our end is forty, precious.  Jayne Cobb: My muscular buttocks it's forty.
 			Capt. Malcolm Reynolds: It should have been me that got hit.  Shepherd Book: The thought... had crossed my mind.
@@ -31,5 +33,14 @@
 			The Operative: Where are you hiding, little girl?
 		</p>
 		<input type="button" id="changefont" value="Change Font?" onclick="changeFont();"/>
+
+		<h2>Paragraph 4</h2>
+		<p id="toreverse"> Capt. Malcolm Reynolds: [after landing on Miranda] Well, something sure the hell ain't right.
+			Hoban 'Wash' Washburn: It's okay, I'm a leaf on the wind!  Capt. Malcolm Reynolds: What does that mean?
+			Capt. Malcolm Reynolds: So I'm noticing. Is there a problem we don't know of?  [pause]  Capt. Malcolm Reynolds: You got a sweet take kissing your foot. How about you take your 25% and we can talk about the next job?  Fanty: Well our end is forty, precious.  Jayne Cobb: My muscular buttocks it's forty.
+			Hoban 'Wash' Washburn: This landing is gonna get pretty interesting.  Capt. Malcolm Reynolds: Define "interesting".  Hoban 'Wash' Washburn: [deadpan] Oh God, oh God, we're all going to die?
+			Capt. Malcolm Reynolds: What in the hell happened back there?  Hoban 'Wash' Washburn: Start with the part where Jayne gets knocked out by a 90-pound girl 'cause... I don't think that's ever getting old.
+		</p>
+		<input type="button" id="startreverse" value="Reverse!" onclick="reverseText();"/>
 	</body>
 </html>

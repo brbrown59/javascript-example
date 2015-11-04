@@ -28,5 +28,20 @@ function findReplace(){
  * changes the font based on a button press
  */
 function changeFont(){
-	document.getElementById("font").style.fontFamily="Times", serif;
+	document.getElementById("font").style.fontFamily="Times";
+}
+
+/**
+ * reverses all of the words in the paragraph
+ **/
+function reverseText(){
+	//split string into words
+	var splitText = document.getElementById("toreverse").innerHTML.split(" ");
+	var newText = "";
+	splitText.reverse();
+	//add spaces back in
+	for (i=0;i<splitText.length;i++){
+		newText = newText + splitText[i] +  " ";
+	}
+	document.getElementById("toreverse").innerHTML = newText;
 }
