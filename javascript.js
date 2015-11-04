@@ -13,11 +13,11 @@ function mouseOut(){
 }
 
 /**
- * function using regular expressions to find a given string and replace it with another given string
+ * function that finds a given string and replace it with another given string
  **/
 function findReplace(){
 	var find = document.getElementById("find").value;
 	var replace = document.getElementById("replace").value;
-	//var regex = new RegExp(find, "g");
-	document.getElementById("toreplace").innerHTML = document.getElementById("toreplace").innerHTML.replace(find, replace);
+	var regex = new RegExp(find, "g");
+	document.getElementById("toreplace").innerHTML = document.getElementById("toreplace").innerHTML.replace(regex, replace);
 }
